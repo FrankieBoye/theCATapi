@@ -14,11 +14,11 @@ I have been set the following challenge:
 
 ## Getting Started
 
-```bash
-> git@github.com:FrankieBoye/theCATapi.git
-> copy the full path for index.html
-> paste paste in your browser
-> click on 'I NEED A CAT'
+```
+> clone git@github.com:FrankieBoye/theCATapi.git
+> copy full path of index.html
+> paste path into your browser address bar
+> click button 'I NEED A CAT'
 ```
 
 ## Usage
