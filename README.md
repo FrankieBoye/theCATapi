@@ -23,7 +23,15 @@ I have been set the following challenge:
 You may require an API key. Head over to https://thecatapi.com and get one for free.
 
 Pass the API key as a query parameter in index.js, eg e.g. https://thecatapi.com/v1/images?api_key=ABC123
+
+To run a Cypress test, type 'node_modules/.bin/cypress open' into the terminal while in the root directory and press enter. This will open the Cypress test window. Then click 'Run all specs'.
 ```
+
+## Cypress testing
+
+![image](https://user-images.githubusercontent.com/44870179/75495227-ed18ce80-59b5-11ea-837c-655034a3acef.png)
+
+![image](https://user-images.githubusercontent.com/44870179/75495359-3d902c00-59b6-11ea-8985-b06da50d126f.png)
 
 ## Usage
 
