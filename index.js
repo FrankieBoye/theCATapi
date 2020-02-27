@@ -7,9 +7,10 @@ catButton.addEventListener("click", evt => {
   fetch('https://api.thecatapi.com/v1/images/search?')
   .then(res => res.json())
   .then(cats => {
+    console.log(cats)
     cats.forEach(cat => {
-      catDiv.innerHTML = `
-      <img src="${cat.url}" alt="cat" />`
+      catDiv.innerHTML = `<h3>Have a catastic day! 😸</h3>
+      <img src="${cat.url}" alt="Sorry, no image" />`
     })
   })
 })
