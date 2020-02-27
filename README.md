@@ -36,6 +36,14 @@ As a cat enthusiast, I would like to be able to see random cat photos.
 
 ```
 
+## Future development
+
+1. Unit tests still need to be written for this application. I need to look into using a mock API.
+
+2. Currently the application is not responsive and the images do not resize according to the browser window size. The images from the API come in various sizes and to see some of the larger ones, you need to scroll the page. I need to look into CSS styling to solve this.
+
+3. The formatting and styling will be improved also.
+
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/44870179/75353220-f1a09280-58a2-11ea-9a2e-c8e1882b8fec.png)
 
@@ -43,6 +51,8 @@ As a cat enthusiast, I would like to be able to see random cat photos.
 
 Added a header and some CSS styling for the background and button.
 
-![image](https://user-images.githubusercontent.com/44870179/75453090-47d90880-596b-11ea-91ff-c704997b67a3.png)
-
 ![image](https://user-images.githubusercontent.com/44870179/75453080-40196400-596b-11ea-9240-0174b5428120.png)
+
+Added a title for Cypress testing purposes.
+
+![image](https://user-images.githubusercontent.com/44870179/75491390-ce163e80-59ad-11ea-8aee-639c654112d1.png)
