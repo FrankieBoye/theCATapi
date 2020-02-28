@@ -1,3 +1,11 @@
+let quotesDiv = document.getElementById('quotes')
+fetch('https://meowfacts.herokuapp.com/')
+.then(res => res.json())
+.then(data => {
+  console.log(data)
+  quotesDiv.innerHTML += `<P> ${data.data} </p>`
+})
+
 let catButton = document.getElementById('give-cat')
 
 catButton.addEventListener("click", evt => {
@@ -9,7 +17,7 @@ catButton.addEventListener("click", evt => {
   .then(cats => {
     console.log(cats)
     cats.forEach(cat => {
-      catDiv.innerHTML = `<h3>Have a catastic day! 😸</h3>
+      catDiv.innerHTML = `
       <img src="${cat.url}" alt="Sorry, no image" />`
     })
   })

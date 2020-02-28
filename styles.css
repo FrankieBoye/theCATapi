@@ -2,11 +2,11 @@ body {
   background: linear-gradient(90deg, #DCDCDC 0%, #696969 100%);
 }
 
-#cat-pic {
+/* #cat-pic {
   position: absolute;
     left: 20px;
     top: 60px;
-  }
+  } */
 
 button {
   font-family: arial;
