@@ -31,7 +31,7 @@ To run a Cypress test, type 'node_modules/.bin/cypress open' into the terminal w
 
 ![image](https://user-images.githubusercontent.com/44870179/75495227-ed18ce80-59b5-11ea-837c-655034a3acef.png)
 
-![image](https://user-images.githubusercontent.com/44870179/75495359-3d902c00-59b6-11ea-8985-b06da50d126f.png)
+![image](https://user-images.githubusercontent.com/44870179/75530330-a655c380-5a0b-11ea-96bd-fc3d68f33cae.png)
 
 ## Usage
 
