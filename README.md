@@ -50,9 +50,9 @@ As a cat enthusiast, I would like to be able to see random cat photos.
 
 2. Currently the application is not responsive and the images do not resize according to the browser window size. The images from the API come in various sizes and to see some of the larger ones, you need to scroll the page. I need to look into CSS styling to solve this.
 
-3. I want the cat fact to change every time the 'CLICK FOR CAT!!' button is pressed.
+3. The formatting and styling will be improved also(fonts, button positioning etc)
 
-4. The formatting and styling will be improved also(fonts, button positioning etc)
+4. Will look into making the application global and having buttons to switch language.
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/44870179/75353220-f1a09280-58a2-11ea-9a2e-c8e1882b8fec.png)
@@ -67,6 +67,6 @@ Added a title for Cypress testing purposes.
 
 ![image](https://user-images.githubusercontent.com/44870179/75491390-ce163e80-59ad-11ea-8aee-639c654112d1.png)
 
-Removed the static header and connected another API that returns cat facts.
+Removed the static header and connected another API that returns a new cat fact which each new image.
 
 ![image](https://user-images.githubusercontent.com/44870179/75593374-0d5f9080-5a7d-11ea-997d-179d13270973.png)
