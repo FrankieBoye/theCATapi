@@ -1,16 +1,15 @@
-let quotesDiv = document.getElementById('quotes')
-fetch('https://meowfacts.herokuapp.com/')
-.then(res => res.json())
-.then(data => {
-  console.log(data)
-  quotesDiv.innerHTML += `<P> ${data.data} </p>`
-})
-
 let catButton = document.getElementById('give-cat')
+let quotesDiv = document.getElementById('quotes')
+let catDiv = document.getElementById('cat-pic')
 
 catButton.addEventListener("click", evt => {
 
-  let catDiv = document.getElementById('cat-pic')
+  fetch('https://meowfacts.herokuapp.com/')
+  .then(res => res.json())
+  .then(data => {
+    console.log(data)
+    quotesDiv.innerHTML = `<P> ${data.data} </p>`
+  })
 
   fetch('https://api.thecatapi.com/v1/images/search?')
   .then(res => res.json())
